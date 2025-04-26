@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ship Description</title>
+    <style>
+        body {
+            background-image: url("ship.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%; /* Use either this or 'cover' */
+        }
+        p {
+            background-color: rgba(255, 255, 255, 0.8); /* optional for readability */
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        A ship is a large vessel designed for travel on water, typically carrying cargo 
+        or passengers. It's larger than a boat and plays a crucial role in international 
+        trade and various other maritime activities. Ships have been used for transportation, 
+        exploration, warfare, and trade since ancient times. 
+    </p>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="ship.jpg">
+        <source media="(min-width:465px)" srcset="ship.jpg">
+        <img src="flower.jpg" alt="Ship or Flower image">
+    </picture>
+</body>
+</html>
